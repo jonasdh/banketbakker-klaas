@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+    background-color: #F5F5DC;
+    overflow-x: hidden;
+   /* color: #fff;
+    color: #F5F5DC;
+    color: #4b4c67; */
+}
+
+#logo img {
+    position: absolute;
+    width: 7%;
+    height: 9%;
+    left: 1.5%;
+}
+.headline h1 {
+    position: absolute;
+    top: 110%;
+    left: 38%;
+    font-size: 40px;
+}
+
+#assortiment {
+    position: relative;
+    top: 110%;
+    left: 15%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+#assortiment h1 {
+    font-size: 45px;
+}
+
+#assortiment img {
+    width: 300px;
+    height: 300px;  
+}
+
+#assortiment p {
+    width: 40%;
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+#contact {
+    width: 25%;
+    position: absolute;
+    top: 520%;
+    left: 15%;
+}
+
+#contact p {
+    font-size: 30px;
+}
+
+@media (max-width: 576px) {
+
+    .headline h1 {
+        top: 110%;
+        width: 55%;
+        left: 30%;
+
+    }
+    
+    #assortiment {
+        width: 99%;
+        margin-left: -13%;
+        display: grid;
+        grid-template-columns: 100%;
+}
+    #assortiment img {
+    }
+
+    #assortiment p {
+    }
+    
+    #assortiment h1 {
+    }
+    
+    #assortiment p {
+    width: 90%;
+}
+
+    #contact {
+    width: 90%;
+    position: absolute;
+    top: 1090%;
+    left: 10%;
+}
+    
+    #logo img {
+    top: 4%;
+    width: 10%;
+    height: 5%;
+    left: 35%;
+}
+}
+
