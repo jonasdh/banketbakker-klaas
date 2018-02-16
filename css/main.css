@@ -21,7 +21,7 @@ body {
 .headline h1 {
     position: absolute;
     top: 110%;
-    left: 38%;
+    left: 40%;
     font-size: 40px;
 }
 
@@ -31,6 +31,41 @@ body {
     left: 15%;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+#box-background-1 {
+    position: absolute;
+    left: 10%;
+    top: 112%;
+    height: 90%;
+    width: 80%;
+    background-color: #ffe;
+    z-index: -100;
+    box-shadow: 1px 8px 10px 1px #888888;
+    
+}
+
+#box-background-2 {
+    position: absolute;
+    left: 10%;
+    top: 285%;
+    height: 82%;
+    width: 80%;
+    background-color: #ffe;
+    z-index: -100;
+    box-shadow: 1px 8px 10px 1px #888888;
+    
+}
+
+#box-background-3 {
+    position: absolute;
+    left: 63%;
+    top: 450%;
+    height: 49%;
+    width: 25%;
+    background-color: #ffe;
+    z-index: -100;
+    box-shadow: 1px 8px 10px 1px #888888;
     
 }
 
@@ -48,17 +83,10 @@ body {
     font-size: 25px;
     line-height: 1.4;
 }
-
-#contact {
-    width: 25%;
-    position: absolute;
-    top: 520%;
-    left: 15%;
-}
-
 #contact p {
     font-size: 30px;
 }
+
 
 @media (max-width: 576px) {
 
@@ -79,13 +107,6 @@ body {
     #assortiment p {
     width: 90%;
 }
-
-    #contact {
-    width: 90%;
-    position: absolute;
-    top: 1090%;
-    left: 10%;
-}
     
     #logo img {
     top: 4%;
@@ -93,5 +114,33 @@ body {
     height: 5%;
     left: 35%;
 }
+    
+    #box-background-1 {
+    position: absolute;
+    left: 10%;
+    top: 120%;
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    z-index: -100;
+    display: none;
+    
+}
+
+#box-background-2 {
+    position: absolute;
+    left: 10%;
+    top: 285%;
+    height: 84%;
+    width: 80%;
+    background-color: white;
+    z-index: -100;
+    display: none;
+    
+}
+    
+    #box-background-3 {
+        display: none;
+    }
 }
 
